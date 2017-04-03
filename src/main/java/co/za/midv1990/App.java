@@ -1,13 +1,16 @@
 package co.za.midv1990;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import static co.za.midv1990.Demo.*;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        showPoly(); //Method used to test Polymorphism
+        showInheritance();
+        showEncapsulation();
+        showComposition();
+
+
     }
 }
